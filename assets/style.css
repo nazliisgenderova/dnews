@@ -1,0 +1,78 @@
+ @import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Open+Sans:wght@500&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(https://www.devsnews.com/template/bazna/bazna/img/slider/slider-2.jpg);
+    background-attachment: fixed;
+}
+.bazna{
+    width: 70%;
+    margin: 0 15%;
+}
+nav ul.menu li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    padding: 25px;
+}
+nav ul.menu li a{
+    font-size: 18px;
+}
+.text-red, nav ul.menu li a:hover{
+    color: rgba(235, 97, 97, 0.997) !important;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: #fff;
+}
+.mt-100{
+    padding-top: 100px;
+}
+.my-25{
+    margin: 25px 0;
+}
+
+.slogan b{
+    font-size:50px;
+    width: 40%;
+    display: block;
+    text-transform: capitalize;
+}
+.slogan p{
+     font-size: 20px;
+     color: orange;
+}
+.btn-orange{
+    background-color: rgb(246, 145, 4);
+    font-weight: 400px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 20px;
+    padding: 20px 50px;
+}
